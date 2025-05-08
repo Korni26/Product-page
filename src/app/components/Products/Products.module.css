@@ -1,0 +1,16 @@
+.Products {
+  display: flex;
+  width: 200vw;
+}
+
+.Products section:nth-child(1) {
+  background-color: #ffba4a;
+}
+
+.Products section:nth-child(2) {
+  background-color: #ff8244;
+}
+
+.Products section:nth-child(3) {
+  background-color: #fd4848;
+}

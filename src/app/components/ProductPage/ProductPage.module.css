@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.ProductPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 100px;
+    font-family: "Staatliches", sans-serif;
+  }
+
+  p {
+    max-width: 50%;
+    font-family: "Space Mono", monospace;
+  }
+}
+
+.ProductPage .description {
+  max-width: 50%;
+}
+
+.ProductPage .description p {
+  margin-left: 20px;
+}
+
+.ProductPage .model canvas {
+  min-width: 300px;
+  min-height: 300px;
+  scale: 1.5;
+  transform: rotate(30deg);
+}
